@@ -5,423 +5,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ESTILO CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Yellowtail&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Yellowtail&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    
     <title>Jairo Perez</title>
 </head>
 
 <body>
-    
-    <div class="main-container">
-        <div class="aside">
-            <div class="logo">
-                <a href="#"><span>Roo</span>kie</a>
-            </div>
-            <div class="nav-toggler">
-                <span></span>
-            </div>
-            <ul class="nav">
-                <li class="btn-a"><a href="#" class="active">INICIO</i></a></li>
-                <li class="btn-b"><a href="#">SOBRE MI</i></a></li>
-                <li class="btn-c"><a href="#">PORTAFOLIO</i></a></li>
-                <li class="btn-d"><a href="#">CONTACTAME</i></a></li>
-                <li class="btn-e"><a href="#">EXTRA</i></a></li>
 
+    <!-- Header Inicio -->
+    <header>
+
+        <!-- Perfil -->
+
+        <div class="profile">
+            <img src="img/subuser.png" alt="" width="150px">
+            <h1>Jairo Perez Cordova</h1>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+
+        <!-- Barra de navegacion -->
+
+        <nav>
+            <ul>
+                <li><a href="#" class="active"><i class="fa-solid fa-house"></i>INICIO</a></li>
+                <li><a href="#"><i class="fa-solid fa-user"></i>SOBRE MI</a></li>
+                <li><a href="#"><i class="fa-solid fa-briefcase"></i>PORTAFOLIO</a></li>
+                <li><a href="#"><i class="fa-solid fa-server"></i>SERVICIOS</a></li>
+                <li><a href="#"><i class="fa-solid fa-envelope"></i>CONTACTO</a></li>
             </ul>
+        </nav>
+
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>&copy; Copyright 2023 <br>Desarrollado por: <a href="#" target="_blank">Jairo Perez</a></p>
         </div>
-        <div class="main-content">
-            <section class="home section ">
-                <div class="container">
-                    <div class="row">
-                        <div class="home-info padd-15">
-                            <h3 class="hello">HI, I'M<span class="name"> <br> Jairo Perez Cordova,<br></span>Welcome.</h3> <br><br><br><br><br><br>
-                            <h3 class="my-profession">I'm a <span class="typing">web designer and developer.</span></h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem cupiditate blanditiis ratione quibusdam eaque mollitia pariatur libero voluptates minima corrupti obcaecati placeat maxime quisquam doloribus quidem sit optio, quis consectetur.</p>
-                            <a href="#contact" class="btn hire-me">Download my CV</a>
-                        </div>
-                        <div class="home-img padd-15">
-                            <img src="img/user.png" alt="">
-                        </div>
-                        
-                    </div>
-                </div>
-            </section>
-            <section class="about section ">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>Sobre Mi</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="about-content padd-15">
-                            <div class="row">
-                                <div class="about-text padd-15">
-                                    
-                                    <h3>I'm Jairo Perez Cordova and <span>Web Developer</span></h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt odio 
-                                        accusantium ducimus minima quia harum ipsam error delectus hic dignissimos, 
-                                        magnam cumque debitis voluptatibus minus, deserunt tempore dolores dicta 
-                                        quas.</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="personal-info padd-15">
-                                    <div class="row">
-                                        <div class="info-item padd-15">
-                                            <p>Nombres : <span>Jairo Perez Cordova</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Pais: <span>Perú</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Edad : <span>21</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Email : <span>perez.dev@gmail.com</span></p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="buttons padd-15">
-                                            <a href="#" class="btn">Download CV</a>
-                                            <a href="#contactame" class="btn hire-me">Hire Me</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="skills padd-15">
-                                    <div class="row">
-                                        <div class="skill-item padd-15">
-                                            <h5>JS</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 86%;"></div>
-                                                <div class="skill-percent">86%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5>PHP</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 66%;"></div>
-                                                <div class="skill-percent">66%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5>HTML</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 96%;"></div>
-                                                <div class="skill-percent">96%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5>CSS</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 76%;"></div>
-                                                <div class="skill-percent">76%</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="education padd-15">
-                                    <h3 class="title">Educacion</h3>
-                                    <div class="row">
-                                        <div class="timeline-box padd-15">
-                                            <div class="timeline shadow-dark">
-                                                <div class="timeline-item">
-                                                    <div class="circle-dot"></div>
-                                                    <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i> 2019 - 2020
-                                                    </h3>
-                                                    <h4 class="timeline-title">Cisco</h4>
-                                                    <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                                        Sint reprehenderit magni ducimus asperiores ipsum consectetur provident molestiae 
-                                                        atque dolor vel nesciunt dolores doloribus minima aut temporibus sit, assumenda 
-                                                        porro esse?</p>
-                                                </div>
-                                                <div class="timeline-item">
-                                                    <div class="circle-dot"></div>
-                                                    <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i> 2019 - 2020
-                                                    </h3>
-                                                    <h4 class="timeline-title">Cisco</h4>
-                                                    <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                                        Sint reprehenderit magni ducimus asperiores ipsum consectetur provident molestiae 
-                                                        atque dolor vel nesciunt dolores doloribus minima aut temporibus sit, assumenda 
-                                                        porro esse?</p>
-                                                </div>
-                                                <div class="timeline-item">
-                                                    <div class="circle-dot"></div>
-                                                    <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i> 2019 - 2020
-                                                    </h3>
-                                                    <h4 class="timeline-title">Cisco</h4>
-                                                    <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                                        Sint reprehenderit magni ducimus asperiores ipsum consectetur provident molestiae 
-                                                        atque dolor vel nesciunt dolores doloribus minima aut temporibus sit, assumenda 
-                                                        porro esse?</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="experience padd-15">
-                                    <h3 class="title">Experiencia</h3>
-                                    <div class="row">
-                                        <div class="timeline-box padd-15">
-                                            <div class="timeline shadow-dark">
-                                                <div class="timeline-item">
-                                                    <div class="circle-dot"></div>
-                                                    <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i> 2000 - 2010
-                                                    </h3>
-                                                    <h4 class="timeline-title">Cisco</h4>
-                                                    <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                                        Sint reprehenderit magni ducimus asperiores ipsum consectetur provident molestiae 
-                                                        atque dolor vel nesciunt dolores doloribus minima aut temporibus sit, assumenda 
-                                                        porro esse?</p>
-                                                </div>
-                                                <div class="timeline-item">
-                                                    <div class="circle-dot"></div>
-                                                    <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i> 2019 - 2020
-                                                    </h3>
-                                                    <h4 class="timeline-title">Cisco</h4>
-                                                    <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                                        Sint reprehenderit magni ducimus asperiores ipsum consectetur provident molestiae 
-                                                        atque dolor vel nesciunt dolores doloribus minima aut temporibus sit, assumenda 
-                                                        porro esse?</p>
-                                                </div>
-                                                <div class="timeline-item">
-                                                    <div class="circle-dot"></div>
-                                                    <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i> 2019 - 2020
-                                                    </h3>
-                                                    <h4 class="timeline-title">Cisco</h4>
-                                                    <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                                        Sint reprehenderit magni ducimus asperiores ipsum consectetur provident molestiae 
-                                                        atque dolor vel nesciunt dolores doloribus minima aut temporibus sit, assumenda 
-                                                        porro esse?</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="service section ">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>Servicios</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="service-item">
-                            <div class="service-item-inner padd-15">
-                                <div class="icon">
-                                    <i class="fa fa-mobile-alt"></i>
-                                </div>
-                                <h4>Diseñador Web</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                    </p>
-                            </div>
-                        </div>
-                        <div class="service-item">
-                            <div class="service-item-inner padd-15">
-                                <div class="icon">
-                                    <i class="fa fa-laptop-code"></i>
-                                </div>
-                                <h4>Diseñador Web</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                    </p>
-                            </div>
-                        </div>
-                        <div class="service-item">
-                            <div class="service-item-inner padd-15">
-                                <div class="icon">
-                                    <i class="fa fa-palette"></i>
-                                </div>
-                                <h4>Diseñador Web</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                    </p>
-                            </div>
-                        </div>
-                        <div class="service-item">
-                            <div class="service-item-inner padd-15">
-                                <div class="icon">
-                                    <i class="fa fa-code"></i>
-                                </div>
-                                <h4>Diseñador Web</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                    </p>
-                            </div>
-                        </div>
-                        <div class="service-item">
-                            <div class="service-item-inner padd-15">
-                                <div class="icon">
-                                    <i class="fa fa-search"></i>
-                                </div>
-                                <h4>Diseñador Web</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                    </p>
-                            </div>
-                        </div>
-                        <div class="service-item">
-                            <div class="service-item-inner padd-15">
-                                <div class="icon">
-                                    <i class="fa fa-bullhorn"></i>
-                                </div>
-                                <h4>Diseñador Web</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                    </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="portfolio section ">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>Portafolio</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="portfolio-heading padd-15">
-                            <h2>Mis Proyectos:</h2>
-                        </div>
-                    </div>
-                    <div class="row">
 
-                        <div class="portfolio-item padd-15">
-                            <div class="portfolio-item-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <img src="img/ejemplo-1.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="portfolio-item padd-15">
-                            <div class="portfolio-item-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <img src="img/ejemplo-2.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="portfolio-item padd-15">
-                            <div class="portfolio-item-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <img src="img/ejemplo-3.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="portfolio-item padd-15">
-                            <div class="portfolio-item-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <img src="img/ejemplo-4.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="portfolio-item padd-15">
-                            <div class="portfolio-item-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <img src="img/ejemplo-5.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="portfolio-item padd-15">
-                            <div class="portfolio-item-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <img src="img/ejemplo-6.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="contact section">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>Contactame</h2>
-                        </div>
-                    </div>
-                    <h3 class="contact-title padd-15">Tienes alguna pregunta?</h3>
-                    <h4 class="contact-sub-title padd-15">ESTOY A TUS SERVICIOS</h4>
-                    <div class="row">
-                        <div class="contact-info-item padd-15">
-                            <div class="icon"><i class="fa fa-phone"></i></div>
-                            <h4>Llamame</h4>
-                            <p>+51 930 964 501</p>
-                        </div>
-                        <div class="contact-info-item padd-15">
-                            <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
-                            <h4>office</h4>
-                            <p>Peru</p>
-                        </div>
-                        <div class="contact-info-item padd-15">
-                            <div class="icon"><i class="fa fa-envelope"></i></div>
-                            <h4>Email</h4>
-                            <p>perez.dev@gmail.com</p>
-                        </div>
-                        <div class="contact-info-item padd-15">
-                            <div class="icon"><i class="fa fa-globe-europe"></i></div>
-                            <h4>Website</h4>
-                            <p>www.ejemplo.com</p>
-                        </div>
-                    </div>
-                    
-                    <div class="row">
-                        <div class="contact-form padd-15">
-                            <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
-                            <h4 class="contact-sub-title padd-15">I'M VERY RESPOSIVE TO MESSAGES</h4>
-                            <div class="row">
-                                <div class="form-item col-6 padd-15">
-                                    <div class="form-group ">
-                                        <input type="text" class="form-control" placeholder="Ingrese su nombre">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Ingrese su N° Movil">
-                                    </div>
-                                </div>
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Ingrese su email">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-item col-6 padd-15">
-                                    <div class="form-group">
-                                        <textarea name="" class="form-control" id="" cols="30" rows="10" placeholder="Ingrese su mensaje"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <button type="submit" class="btn">Enviar Mensaje</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </div>
+    </header>
+
+    <!-- Navegacion Movil -->
+    <i class="fa-solid fa-bars" id="MenuBtn"></i>
+    <!-- Header Final -->
 
 
+    <!-- Contenido del portafolio -->
+    <main>
+
+        <!-- SECCION INICIO Start -->
+        <section id="home">
+            <div class="home-row">
+                <h1>Hola, Soy <br>Jairo Perez<span>.</span></h1>
+                <p>Soy <span class="auto-input">Desarrollador de software</span></p>
+            </div>
+        </section>
+        <!-- SECCION INICIO end -->
+
+    </main>
+
+
+
+    <!-- JS efectos  -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- JS PRINCIPAL -->
     <script src="js/script.js"></script>
+    <!-- FontAwesome (Iconos) -->
+    <script src="https://kit.fontawesome.com/c09d724bd8.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
