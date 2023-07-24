@@ -13,7 +13,7 @@
 :root
 {
     --sideBGColor:#040b14;
-    --themeColor: #00A78E;
+    --themeColor: #E92626;
     --iconBGColor:#2C2F3F;
     --textColor:#353535;
     --bgColor:#F7F7F7;
@@ -42,7 +42,7 @@ header .profile{
 header .profile img{
     width: 150px;
     border-radius: 50%;
-    border: 10px solid var(--iconBGColor);
+    border: 10px solid var(--themeColor);
 }
 
 header .profile h1{
