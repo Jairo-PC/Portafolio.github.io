@@ -958,7 +958,7 @@ main{
 }
 
 /* Vita movil */
-@media only screen and(max-width: 800px) {
+@media only screen and (max-width: 800px) {
     #contact{
         padding: 50px;
     }
@@ -969,7 +969,7 @@ main{
 
 }
 
-@media only screen and(max-width: 500px) {
+@media only screen and (max-width: 500px) {
     #contact{
         padding: 50px 10px;
     }
