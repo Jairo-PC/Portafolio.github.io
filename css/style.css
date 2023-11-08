@@ -40,9 +40,9 @@ header .profile{
 }
 
 header .profile img{
-    width: 150px;
+    width: 130px;
     border-radius: 50%;
-    border: 10px solid var(--themeColor);
+    border: 8px solid var(--themeColor);
 }
 
 header .profile h1{
@@ -70,7 +70,7 @@ header .profile .social-icons a:hover{
 
 /* Barra de navegacion */
 header nav{
-    margin-top: 30px;
+    margin-top: -5px;
 }
 
 header nav ul li{
@@ -81,7 +81,7 @@ header nav ul li a{
     display: inline-block;
     text-decoration: none;
     padding: 7px 10px;
-    margin: 7px 0;
+    margin: 8px 0;
     color: lightgray;
     font-weight: 400;
     font-size: 15px;
