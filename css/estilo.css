@@ -32,11 +32,13 @@ header{
     bottom: 0;
     transition: 0.4s;
     z-index: 99;
+
 }
 
 header .profile{
     text-align: center;
     margin: 10px 0;
+
 }
 
 header .profile img{
